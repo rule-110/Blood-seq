@@ -1,0 +1,48 @@
+# ---- Participant data: NEVER commit (Dunedin Study data-access agreement) ----
+*.h5ad
+*.h5
+*.loom
+*.rds
+*.nc
+*.npy
+*.npz
+*.pkl
+*.parquet
+*.xlsx
+*.txt
+!requirements*.txt
+**/data/
+**/cache/
+lockbox.csv
+
+# Per-donor predictions / run outputs
+**/results/oof/
+LOCKBOX_predictions.csv
+*.log
+MULTISPLIT*/
+THREE_MODEL_*/
+HPARAM_SWEEP_*/
+FULL*_PaceOfAgingP45_*/
+PERMTEST_tertile_scvi/results/
+Rapport_*.pdf
+Tableau_*.csv
+Arbre_*.pdf
+RESULTATS_*.xlsx
+v12_libcorr_pseudobulk_cache/
+
+# Third-party MIL code (clone separately, see MIL_PaceOfAging/README.md)
+MIL_PaceOfAging/repos/
+
+# Models
+/model_scvi_*/
+/mrvi_*model*/
+mrvi_ensemble/
+*.pt
+*.ckpt
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.backup-*.ipynb
+.env

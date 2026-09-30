@@ -1,0 +1,10 @@
+# Versions of the environment the analyses were run in (pipx "jupyterlab" venv, Python 3.12,
+# CUDA GPU for scVI/XGBoost). CellBender needs its own env: see 01_ambient_rna/README.md.
+name: bloodseq
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -r requirements.txt

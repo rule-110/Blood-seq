@@ -1,0 +1,4 @@
+comparison,delta_auc,ci_low,ci_high,p_boot_one_sided
+BMI + snRNA proxy (M02)  minus  BMI only,0.07454427083333337,-0.019257149983372177,0.17756802721088438,0.059
+clinical13 + snRNA direct (K02)  minus  clinical13,-0.007161458333333259,-0.027168376039253168,0.009388067685518368,0.794
+"snRNA-only: proxy[clin13+blood5]+direct, libcorr (Y02)  minus  covariates only",0.15787760416666663,0.03229016464727269,0.28184204824498044,0.0095
